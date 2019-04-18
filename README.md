@@ -11,8 +11,8 @@ redis 采用 redis-5.0.0版本。
 ### 下载并解压 
 
 ```
-wget 
-tar -xvf 
+wget https://github.com/chenjie222/redis-client_install/blob/master/package/redis-5.0.0.tar.gz
+tar -xvf redis-5.0.0.tar.gz
 ```
 
 ## 编译安装 
@@ -30,9 +30,9 @@ make && make install
 mkdir /etc/redis/cluster　
 ```
 
-将github上  复制到此处
+将https://github.com/chenjie222/redis-client_install  conf里的全部内容复制到此处/etc/redis/cluster
 
-修改配置文文/cfg/8700.conf cfg/8701.conf  cfg/8702.conf  cfg/8703.conf  cfg/8704.conf  cfg/8705.conf 
+修改配置文件/etc/redis/cluster/cfg/8700.conf   8701.conf   8702.con   8703.conf  8704.conf  8705.conf 
 
 ```
 port 8700
